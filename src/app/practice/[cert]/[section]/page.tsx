@@ -28,8 +28,8 @@ export default async function PracticePage(props: PageProps<"/practice/[cert]/[s
   return (
     <main className="mx-auto w-full max-w-3xl px-4 py-8 sm:py-12">
       <nav className="mb-6 text-sm text-muted">
-        <Link href="/" className="hover:text-primary">
-          Home
+        <Link href="/practice" className="hover:text-primary">
+          Practice
         </Link>
         {" / "}
         <span>{cert.name}</span>

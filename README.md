@@ -25,6 +25,9 @@ Built with Next.js 16 (App Router, Cache Components), React 19 and Tailwind CSS 
 | `src/lib/exam/catalog.ts` | Looks up exams and sections. Server-only. |
 | `src/lib/exam/grade.ts` | `toPublicSection` (removes answers before sending to the browser), `gradeSection`, input validation. |
 | `src/lib/exam/actions.ts` | Server Actions: `gradeAnswers` and an `evaluateWriting` stub. |
+| `src/app/page.tsx`, `src/components/landing/` | Landing page: hero, features, writing/speaking, how it works, pricing, FAQ, CTA, header and footer. |
+| `src/lib/pricing.ts` | Plan names, placeholder prices and features shown on the landing page. |
+| `src/app/practice/page.tsx` | List of all practice sections. |
 | `src/app/practice/[cert]/[section]/` | Practice page, pre-rendered for every section in the catalog. |
 | `src/components/player/` | `ExercisePlayer` (multiple choice, Richtig/Falsch, word-bank gaps, inline gap chips), `AudioPlayer`, `WritingPlayer`. |
 
